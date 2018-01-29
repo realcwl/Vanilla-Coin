@@ -60,6 +60,7 @@ public class TxHandler {
             totalOutput += value;
         }
 
+        /* (5) the sum of {@code tx}s input values is greater than or equal to the sum of its output values */
         return totalInput >= totalOutput;
     }
 
